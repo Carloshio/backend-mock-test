@@ -43,7 +43,7 @@ public class UsuarioService {
 			
 		} else {
 			// Retorna uma mensagem de erro em JSON
-			return "{\"error\": \"Gestor não encontrado\"}";
+			return "\"{\\\"code\\\": -1,\\\"message\\\":\\\"HTTP/1.1 400 \\\"}\"";
 		}
 	}
 }
