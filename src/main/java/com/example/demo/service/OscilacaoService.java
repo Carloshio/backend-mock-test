@@ -21,8 +21,8 @@ public class OscilacaoService {
 	public ApiResponse getStatus() {
         OscilacaoDTO response = new OscilacaoDTO();
         response.setQtdRecebidos(10);
-        response.setQtdPendentes(0);
-        response.setQtdPrevistos(0);
+        response.setQtdPendentes(111);
+        response.setQtdPrevistos(98);
         response.setQtdAtivos(response.getQtdRecebidos() + response.getQtdPrevistos() + response.getQtdPendentes());
         response.setDataConsulta(LocalDateTime.now());
         
